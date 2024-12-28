@@ -66,6 +66,9 @@ body{
     font-weight:400;
 }
 
+.header-container .hamburgar-menu{
+    display: none;
+}
 
 
 /* hero section starts here */
@@ -430,7 +433,7 @@ body{
     /* display: flex; */
     /* flex-direction: column; */
     gap:15px;
-    /* text-align: right; */
+    text-align: center;
     color:white;
     font-size: 20px;
     font-weight: 400;
@@ -458,6 +461,9 @@ body{
 }
 
 @media screen and (max-width: 950px){
+    .hamburgar-menu{
+        display:block !important;
+    }
     .hero-container, .feature{
         flex-direction:column;
 
