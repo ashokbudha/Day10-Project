@@ -531,11 +531,19 @@ height:auto;
 
 @media screen and (max-width: 700px){
     .header-container, .hero-container, .partners-container, .features-container, .team-container, .footer-container{
-       
-        /* border:2px solid black; */
+        /* border:2px solid red; */
         /* background:red; */
         width:95vw !important;
     }
+    .feature-illustration{
+        width:85vw !important;
+        /* border:2px solid black; */
+    }
+    .feature-content, .hero-content{
+        width:85% !important;
+        /* border:2px solid black; */
+    }
+
     #footer .footer-container{
         flex-direction:column !important;
         align-items:center;
